@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>As funções do Java Script</title>
+<link rel="stylesheet" type="text/css" href="../css/estilo.css" />
+</head>
+<body>
+	<header>
+		<form method="get" id="formulario" action="#" onsubmit="return mudar(this)">
+			<label>Nome</label> 
+			<input type="text" name="nome" required id="nome" placeholder="Fulano"/>
+			 <label>Idade</label>
+			<input type="text" name="idade" required id="idade" placeholder="25" />
+			 <input type="submit" name="vai" value="MUDAR" onclick="javascript: oclick()" class="botao" />
+		</form>
+	</header>
+
+	<section id="mudar">
+
+		<table id="tabela">
+			<tr>
+				<td id="onome">NOME</td>
+			</tr>
+			<tr>
+				<td id="aidade">IDADE</td>
+			</tr>
+		</table>
+
+	</section>
+
+
+
+	<script type="text/javascript" src="../js/script.js"></script>
+</body>
+</html>

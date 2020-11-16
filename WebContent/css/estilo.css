@@ -1,0 +1,32 @@
+@CHARSET "UTF-8";
+
+#mudar{
+	display: none;
+	margin-top: 3%;
+		
+}
+
+#tabela{
+	background-color: #8080ff;
+	color: white;
+	text-align: center;
+	border: 10px thin;
+	border-style: solid;
+	border-color: #00ffff;
+		
+}
+
+.botao{
+	background-color: black;
+	border-radius: 10px;
+	color: white;
+	font-weight: bold;
+}
+
+.botao:hover{
+	background-color: #0000ff;
+}
+
+.botao:active{
+	background-color: #11b1ee;
+}
